@@ -15,6 +15,7 @@ const Item = () => {
 
     const history = useHistory()
 
+    // DELETE
     const handleDeleting = (e) => {
         e.preventDefault() // no page refresh
         setLoadingDelete(true)
@@ -58,7 +59,25 @@ const Item = () => {
                 className="px-4 py-3 leading-normal text-red-100 bg-red-700 rounded-lg" role="alert">
                 <p>A simple alert with text and an icon. Check it out!</p>{error}</div>}
 
-            {(isLoading || isLoadingDelete) && <div>...loading</div>}
+            {(isLoading || isLoadingDelete) && <div className="flex">
+                <span>
+                <svg version="1.1" id="loader-1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                        className="w-6 h-6" viewBox="0 0 50 50">
+                        <path fill="#000" d="M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z">
+                            <animateTransform attributeType="xml"
+                                attributeName="transform"
+                                type="rotate"
+                                from="0 25 25"
+                                to="360 25 25"
+                                dur="0.6s"
+                                repeatCount="indefinite" />
+                        </path>
+                    </svg>
+                </span>
+                <span className="ml-4">
+                    ...loading
+                </span>
+            </div>}
         </div>
     );
 }

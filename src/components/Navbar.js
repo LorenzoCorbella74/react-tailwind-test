@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
     return (
         <nav className="flex justify-between py-4 items-center">
-            <h3 className="text-gray-800 text-4xl">React + Tailwind</h3>
+            <h3 className="text-gray-800 text-4xl underline">React + Tailwind</h3>
             <div className="flex">
                 <div className="rounded-full py-3 px-2 uppercase text-xs font-bold tracking-wider cursor-pointer mr-4 bg-yellow-400 text-gray-800">
                     <Link to="/">Home</Link>

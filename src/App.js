@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 // COMPONENTS
 import Navbar from './components/Navbar';
-import Home from './components/Home';
+import List from './components/List';
 import Create from './components/Create';
 import Item from './components/Item';
 import NotFound from './components/NotFound';
@@ -17,7 +17,7 @@ function App () {
         <div className="mt-4">
           <Switch>
             <Route exact path="/">
-              <Home />
+              <List />
             </Route>
             <Route path="/create">
               <Create />
