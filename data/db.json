@@ -1,21 +1,15 @@
 {
   "items": [
     {
-      "id": 2,
-      "title": "Titolo 2",
-      "boby": " dauhdsha  dhiasuhd uiasid hauidiuas diuasid ",
-      "author": "Chiara"
-    },
-    {
       "id": 3,
       "title": "Titolo 3",
-      "boby": " dsaoidoias  dha oshdasdhaodh aodo  uoadouasduad auhd oauhda ",
+      "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quam tempore deleniti, molestiae reprehenderit deserunt. Dolores, omnis officiis sed voluptatem minima placeat ea quos voluptas fugiat qui. Aperiam, rerum earum.",
       "author": "Lore"
     },
     {
       "id": 4,
       "title": "Titolo 4",
-      "boby": " dsaoidoias  dha oshdasdhaodh aodo  uoadouasduad auhd oauhda ",
+      "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quam tempore deleniti, molestiae reprehenderit deserunt. Dolores, omnis officiis sed voluptatem minima placeat ea quos voluptas fugiat qui. Aperiam, rerum earum.",
       "author": "Chiara"
     },
     {
@@ -29,6 +23,18 @@
       "author": "Lorenzo",
       "body": "prova",
       "id": 6
+    },
+    {
+      "title": "L'arcinboldo",
+      "author": "Lorenzo",
+      "body": "fjsdnafkja fasdfadjksfkajsdfjk adfkads fasf asdhfkjasd fklasdfjk haskdfh ashdfjk ashdfkahsd kfhasdkjfh kasdhf kashdfkas hdfkasdh fkhasdkfh askdfhakshdfkasdh fkladhsfklhasdf",
+      "id": 7
+    },
+    {
+      "title": "Titolone",
+      "author": "Lorenzo",
+      "body": "Prova di body non molto lungo ma almeno lungo più di una riga",
+      "id": 8
     }
   ]
 }
